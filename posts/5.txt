@@ -1,0 +1,15 @@
+dltool mines dwarf
+This is going to sound like quite a yak-shave, but here goes: I was spending
+some research time here at Igalia working on a new virtual machine for Guile
+when I got interested by DWARF, the debugging format used in many UNIX systems
+(GNU, the BSDs, Mac OS). For various reasons, we needed a new debugging format,
+and DWARF seemed suitable.
+
+I was going to need tools that would both produce and consume DWARF information,
+so I started with the parser. Of course there is a ready source of DWARF
+information on a GNU system, in all of the shared libraries. So I wrote a tool
+to snarf information out of those libraries. It is suprising how much there is!
+
+dltool
+
+Enough of the strange introduction! Let's try it out:

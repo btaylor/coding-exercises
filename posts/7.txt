@@ -1,0 +1,16 @@
+GSoC progress report #2 – First .app-Bundle available
+Icon flicker bug
+
+Around the time I started the GSoC project, I merged the xamarin and David’s
+bockbuild tree together into a single one. Ever since then, there was a very
+nagging bug with the icons in the sources view, which randomly flickered and
+disappeared when hovering with the mouse. Someone on the mailing list could
+reproduce that, so sth. needed to be done about that. As I remember that didn’t
+happen on previous builds, I searched through what packages got updated in the
+merge and started to play around by compiling different versions. This is a very
+time consuming task, as I have to rebuild the full
+gtk+/gtk-sharp/pango/cairo/gtk-mac-integration stack when changing versions of a
+single package. After some patient hours I found out that the update to latest
+cairo introduced that bug, so for today’s alpha build I downgraded to cairo
+1.10.2. I will investigate that further, to have it fixed in the upstream
+  versions.

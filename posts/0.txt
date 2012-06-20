@@ -1,0 +1,12 @@
+New Things GNOME
+I haven't blogged in a long time,so I thought I would post about what I've been
+doing...
+I spent a lot of time in the last few months working on integrating my High
+Contrast work into the Symbolic Theme. Jakub Steiner and Lapo Calamandrei have
+been very generous with their time and expertise --giving me technical pointers,
+critiquing my work, editing, and adding new icons to the set. I was looking at
+the Gnome-Themes-Standard git on GNOME.org, and it looks like Cosimo Cecchi
+wrote his build-time hack for High Contrast (I get most of my information about
+GNOME by reading git commits and Bugzilla, so...). The base set for the High
+Contrast and High Contrast Inverse Themes will still be short some icons, but
+what we have in 3.4 will be a big improvement :)

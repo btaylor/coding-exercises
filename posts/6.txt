@@ -1,0 +1,13 @@
+Time flies in 16x16...
+Hello, Planet Gnome!
+
+I am happily busy with designing symbolic icons for various applications.
+Besides working in Inkscape, I am now also running Fedora for some days and I
+must say I really like it. Fedora was playing hard to get and my computer seem
+to be Fedora-proof, but eventually (by eventually I mean seven different errors
+and eleven different opinions of what the install problem is) it had to give in.
+A compromise had to be made - at first I wanted to have Fedora as a dual-boot,
+but after some really bad behaviour from Vista (which I wasn’t too fond of
+anyways),  I decided that Windows had to go and that was a great decision. After
+that errors backed off and things now run smoothly (*knocks on wood*). Now a new
+frontier is here and I am ready to get fully immersed.
