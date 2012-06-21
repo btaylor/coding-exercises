@@ -30,4 +30,4 @@ What is the algorithmic runtime (using O notation) of what you wrote?
 ## Runtime (related_posts4.py):
 In this final exercise, reduce the runtime of `get_related_posts` to
 O(blog.post + blog.title).  Remember that while runtime is bounded, memory is
-not.
+not, so you may want to consider some pre-processing of the data.
