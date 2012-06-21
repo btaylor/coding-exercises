@@ -1,6 +1,17 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# ## Related Posts (related_posts1.py):
+# We define related as having words in common.  The most related post is the
+# post with all of the same words.  Predictably, the least related post is the
+# post with no words in common.
+# 
+# The method `get_related_blog_posts` takes a BlogPost object and returns a list
+# of related BlogPosts sorted by the number of words in common, with the most
+# related post first, and the least related post last.
+# 
+# Please provide your first-order implementation for `get_related_blog_posts`.
+
 from models import BlogPost
 
 posts = []

@@ -1,6 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# ## Blacklisting tokens (related_posts2.py):
+# Given a blacklist of common English prepositions and using the code you wrote
+# in `related_posts1.py`, implement `get_related_blog_posts` such that it
+# ignores the provided blacklisted tokens.
+
 from blog import BlogPost
 from sets import Set
 

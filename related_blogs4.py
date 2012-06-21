@@ -1,6 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# ## Runtime (related_posts4.py):
+# In this final exercise, reduce the runtime of `get_related_posts` to
+# O(blog.post + blog.title).  Remember that while runtime is bounded, memory is
+# not, so you may want to consider some pre-processing of the data.
+
 from blog import BlogPost
 from sets import Set
 

@@ -1,6 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# ## Token weighting (related_posts3.py):
+# Tokens in the title of the blog post are often the most descriptive part of the
+# blog post.  Using the code from `related_posts2.py`, refine your algorithm to
+# weight title tokens twice as much as tokens in the body.
+# 
+# What is the algorithmic runtime (using O notation) of what you wrote?
+
 from blog import BlogPost
 from sets import Set
 
