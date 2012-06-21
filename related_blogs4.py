@@ -6,7 +6,7 @@
 # O(blog.post + blog.title).  Remember that while runtime is bounded, memory is
 # not, so you may want to consider some pre-processing of the data.
 
-from blog import BlogPost
+from models import BlogPost
 from sets import Set
 
 word_blacklist = Set((

@@ -6,7 +6,7 @@
 # in `related_posts1.py`, implement `get_related_blog_posts` such that it
 # ignores the provided blacklisted tokens.
 
-from blog import BlogPost
+from models import BlogPost
 from sets import Set
 
 word_blacklist = Set((

@@ -8,7 +8,7 @@
 # 
 # What is the algorithmic runtime (using O notation) of what you wrote?
 
-from blog import BlogPost
+from models import BlogPost
 from sets import Set
 
 word_blacklist = Set((
