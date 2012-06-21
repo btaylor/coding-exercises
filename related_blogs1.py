@@ -10,7 +10,7 @@ def import_blog_posts():
         posts.append(BlogPost(lines[0], ''.join(lines[1:])))
 
 def tokenize_blog_post(b):
-    return b.body.split(' ') + b.title.split(' ')
+    return b.body.lower().split(' ') + b.title.lower().split(' ')
 
 def get_related_blog_posts(b):
     return []
